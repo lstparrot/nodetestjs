@@ -8,5 +8,4 @@ async function run(){
     await page.screenshot({path: 'example.png', fullPage: true});
     await browser.close();
 }
-
 run();
