@@ -7,7 +7,14 @@
     <title>Изучение JavaScript</title>
 </head>
 <body>
-<noscript>NO JavaScript</noscript>
+  <button onclick="alert('Your pressed me')">Press me</button>
+  <button onclick="onClickButton1(this)">Press me</button>
+  <p onclick="onClickButton()">Press me</p>
+  <button ondblclick="onClickButton()">Press me</button>
+  <button onmouseover="onClickButton()">Press me</button>
+  <button onmouseout="onClickButton()">Press me</button>
+  <input oninput="onInput(this)">
+
 
     <script>
       // document.write("JS write");
@@ -16,7 +23,7 @@
       // console.error("JS write"); ошибка
       // console.warn("JS write");
     </script>
-    <script src="fun.js">
+    <script src="fun2.js">
 
     </script>
 </body>
